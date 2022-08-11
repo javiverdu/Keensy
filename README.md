@@ -3,14 +3,7 @@
 # _______ Spanish _______
 
 
- COSAS QUE TENGO QUE PONER
- 
- que hace
- como lo hace
- por que funciona
- con que funciona y con que va a funcionar
- materiales que necesita
- proceso de ensamblaje 
+ AQUI NO HAY NADA QUE VER ESTO NO ESTÁ TERMINADO :(
  
 
   Keensy es un teclado mecanico de tamaño 75% impreso en 3d basado en el firmware QMK.
