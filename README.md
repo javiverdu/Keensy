@@ -1,36 +1,20 @@
 # Keensy
 
-# _______ Spanish _______
+
+Keensy is a 3d printed custom mechanical keyboard with a 75% format with KMK firmware. The goal of this project is to create a cheap keyboard with good quality
+### Note: the keyboard has a ISO layout. 
+
+The main features of the keyboard are:
+- Usb-C connector
+- 3d printed pcb plate and case
+- hotswap PCB
+- magnetic case 
+- KMK firmware
 
 
- AQUI NO HAY NADA QUE VER ESTO NO ESTÁ TERMINADO :(
- 
 
-  Keensy es un teclado mecanico de tamaño 75% impreso en 3d basado en el firmware QMK.
-  La finalidad de este proyecto es que cualquier persona pueda construir un teclado custom con las mejores prestaciones al mejor precio.
-  
-  Nota: Esta es la primera versión del teclado, la siguiente versión tratará de usar una controladora tipo rp4020 para facilitar el proceso de compilar el   software
-  
-  Las características principales del teclado son:
-  
-  * Conector usb C
-  * carcasa y plate impreso en 3d 
-  * plate magnetico (se hablará de esto más tarde)
-  * sistema Hotswap para cambiar switches 
-  * handwired solido sin necesidad de soldar
-  * QMK
-  * Opcional: capacidad de crear macros 
- 
-# Materiales
+## Additional info
 
-  Para construir el teclado mecanico necesitaremos
-  * tener acceso a una impresora 3d (+-500g de filamento)
-  * controladora ProMicro (ATMEGA32U4 16MHZ)
-  * imanes 4x2mm
-  *  
-  
-  
-  
-  
+* Credits [50an6xy06r6n](https://github.com/50an6xy06r6n/hotswap_pcb_generator) and [stingray127](https://github.com/stingray127/handwirehotswap) for helping me with the design of the PCB
 
-Keensy is a cheap custom 3d printed 75% mechanical keyboard with QMK firmware
+* This project started in 2020 with the QMK firmware and a [modded Pro Micro](https://golem.hu/guide/pro-micro-upgrade/). For anyone interested in it i uploaded the duplex matrix and the .hex with the pinout in keensy.old
