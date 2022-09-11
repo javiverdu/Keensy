@@ -8,6 +8,7 @@ The main features of the keyboard are:
 - Usb-C connector
 - 3d printed pcb plate and case
 - hotswap PCB
+- effortless soldering (only the FC!)
 - magnetic case 
 - KMK firmware
 
