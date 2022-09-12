@@ -37,12 +37,3 @@ you're done!
 
 
 
-
-
-It will download a .zip file. Extract all the files.
-
-In the folder find the KMK folder and the boot.py file.
-
-Copy those items from the folder and pasted them in the Pico
-
-That should be all the setup on the Pico
