@@ -4,11 +4,13 @@
 
 - 3d printed files
 - rp2040 WeAct Studio
-- Soldering Iron 
 - 48 4x2mm magnets 
 - 84 1N14148 diodes
 - 84 keycaps 
 - 22 AWG flexible cable 
+- 33x5x1.5mm silicone feet
+- Soldering Iron 
+- Hot glue 
 - scizzors
 - a pin (yes, a pin)
 
