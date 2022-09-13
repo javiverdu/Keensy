@@ -1,11 +1,17 @@
 print("Starting")
+
 import board
+
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.extensions.international import International
+
 keensy = KMKKeyboard()
+
 keensy.extensions.append(International())
+
+
 keensy.col_pins = (
                      board.GP15,
                      board.GP14,
@@ -22,6 +28,7 @@ keensy.col_pins = (
                      board.GP3,
                      board.GP2,
                      board.GP1,                  )
+
 keensy.row_pins = (
                      board.GP16,
                      board.GP17,
@@ -30,7 +37,12 @@ keensy.row_pins = (
                      board.GP20,
                      board.GP21
                   )
+
+
 keensy.diode_orientation = DiodeOrientation.ROW2COL
+
+
+
 keensy.keymap = [
  [  
    KC.ESCAPE,        KC.F1,      KC.F2,    KC.F3,    KC.F4,    KC.F5,    KC.F6,      KC.F7,    KC.F8,    KC.F9,    KC.F10,     KC.F11,       KC.F12,         KC.PSCREEN, KC.HOME, 
@@ -41,5 +53,11 @@ keensy.keymap = [
    KC.LCTRL,         KC.LGUI,    KC.LALT,  KC.NO,    KC.NO,    KC.NO,    KC.SPACE,   KC.NO,    KC.NO,    KC.RALT,  KC.RGUI,    KC.RCTRL,     KC.LEFT,        KC.DOWN,    KC.RIGHT,           
  ]
 ]
+
+
+
+
+
 if __name__ == '__main__':
     keensy.go()
+
