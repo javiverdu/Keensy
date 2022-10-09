@@ -13,7 +13,7 @@ The main features of the keyboard are:
 - KMK firmware
 
 ##FAQ 
-**Q)
+
 
 ## Thanks
 
