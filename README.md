@@ -1,8 +1,9 @@
 # Keensy
 
-## Intro
+![WhatsApp Image 2022-10-21 at 19 35 23](https://user-images.githubusercontent.com/77059171/197512268-a7b74ede-3ab1-4034-8dd3-eba26b38534c.jpeg)
+
 Keensy is a 3d printed custom mechanical keyboard with a 75% format with KMK firmware. The goal of this project is to create a cheap keyboard with good quality
-### Note: the keyboard has a ISO layout. 
+### Note: the keyboard has ISO layout, ANSI layout coming soon. 
 
 The main features of the keyboard are:
 - Usb-C connector
@@ -11,9 +12,6 @@ The main features of the keyboard are:
 - effortless soldering (only the FC!)
 - magnetic case 
 - KMK firmware
-
-##FAQ 
-
 
 ## Thanks
 
