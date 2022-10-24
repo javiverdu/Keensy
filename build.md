@@ -19,8 +19,20 @@
 First download [CircuitPython](https://circuitpython.org/board/weact_studio_pico/)
 
 get the raspberry in boot mode
-
 hold down the boot buttom and plug the raspberry into the computer
+<img width="438" alt="Screen Shot 2022-10-24 at 13 27 35" src="https://user-images.githubusercontent.com/77059171/197515886-c6149de8-bc5b-4a58-924d-d362ccd863eb.png">
+
+
+
+
+
+
+
+
+
+
+
+
 
 The computer should detect a new external storage
 
