@@ -39,3 +39,7 @@ you're done!
 
 
 
+## PCB Assembly
+
+![pcb1](https://user-images.githubusercontent.com/77059171/197512673-89415271-1898-42db-8045-a4a546871fb2.jpeg)
+
