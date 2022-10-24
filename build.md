@@ -52,6 +52,7 @@ you're done!
 <img width="1125" alt="Screen Shot 2022-10-24 at 13 13 47" src="https://user-images.githubusercontent.com/77059171/197513599-e50b8574-73cf-4c6b-b42f-9b8525960c7e.png">
 <img width="1125" alt="Screen Shot 2022-10-24 at 13 14 00" src="https://user-images.githubusercontent.com/77059171/197513604-9f14fefa-2a90-467a-b6c7-1389f41f7929.png">
 ![pcb11](https://user-images.githubusercontent.com/77059171/197513607-f82ca05a-25a7-458b-9c98-04b720e4c8ba.jpeg)
+
 Note: if you didn't put the cables in the same order as me you must modify the order of the pins in the [code.py](https://github.com/kebab-mixto/Keensy/blob/main/code.py)
 ![pcb12](https://user-images.githubusercontent.com/77059171/197513608-b7ce56fa-b938-4343-9fe7-694ba7b8dd3d.jpeg)
 
