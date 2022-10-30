@@ -19,6 +19,7 @@ The main features of the keyboard are:
 - rp2040 WeAct Studio
 - 84 keycaps 
 - Costar stabilizers
+- short usb-c male to female (tutorial soon)
 - 33x5x1.5mm silicone feet
 - 84 1N14148 diodes
 - 22 AWG flexible cable 
