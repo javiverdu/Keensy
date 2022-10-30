@@ -15,7 +15,7 @@ The main features of the keyboard are:
 
 # Materials 
 
-- 3d printed files
+- 3d printed files (make sure the plates are printed in a good bed level)
 - rp2040 WeAct Studio
 - M2X14mm screws
 - 84 1N14148 diodes
