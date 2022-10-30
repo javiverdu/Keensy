@@ -1,10 +1,8 @@
-# Build Guide
-
-## Things you need
+# Materials 
 
 - 3d printed files
 - rp2040 WeAct Studio
-- 48 4x2mm magnets 
+- M2X14mm screws
 - 84 1N14148 diodes
 - 84 keycaps 
 - 22 AWG flexible cable 
@@ -12,26 +10,18 @@
 - Soldering Iron 
 - Hot glue 
 - scizzors
-- a pin (yes, a pin)
+- a pin (or something pointy)
 
-## Getting started
+
+# Preparing the Raspberry firmware
+
+### NOTE: The model of the raspberry has to be from WeAct Studio. If not, search the firmware of your raspberry [here](https://circuitpython.org/downloads)
 
 First download [CircuitPython](https://circuitpython.org/board/weact_studio_pico/)
 
-get the raspberry in boot mode
-hold down the boot buttom and plug the raspberry into the computer
+Get the raspberry in boot mode: Hold down the boot buttom and plug the raspberry into the computer
+
 <img width="438" alt="Screen Shot 2022-10-24 at 13 27 35" src="https://user-images.githubusercontent.com/77059171/197515886-c6149de8-bc5b-4a58-924d-d362ccd863eb.png">
-
-
-
-
-
-
-
-
-
-
-
 
 
 The computer should detect a new external storage
@@ -45,23 +35,23 @@ Grab the latest version of [KMK](https://github.com/KMKfw/kmk_firmware) and extr
 
 Copy the kmk folder and the boot.py to the raspberry
 
-download and copy the code.py to the raspberry
+Download and copy the code.py to the raspberry
 
-you're done!
+You're done!
 
 
 
-## PCB Assembly
+# PCB Assembly
 
-this is the most tedious part of the build, it will take you some time to finish it
+### This is the most tedious part of the build, it will take you some time to finish it
 ![pcb1](https://user-images.githubusercontent.com/77059171/197512673-89415271-1898-42db-8045-a4a546871fb2.jpeg)
 
-Pro tip: place the raspberry in a position and cut the cables measuring its length to the pin
+### Pro tip: place the raspberry in a position and cut the cables measuring its length to the pin
 ![pcb2](https://user-images.githubusercontent.com/77059171/197513583-98787abe-5e95-45ab-9ab7-ecd54d1df790.jpeg)
 ![pcb3](https://user-images.githubusercontent.com/77059171/197513585-7050d4f7-cc5f-48e4-8468-59da6b93305a.jpeg)
 ![pcb4](https://user-images.githubusercontent.com/77059171/197513589-f252d623-6e82-480e-9f8b-c4e5365b481e.jpeg)
 
-do the same with the rows.
+### Do the same with the rows.
 ![pcb5](https://user-images.githubusercontent.com/77059171/197513590-bc3b014f-c4d3-4b2d-8021-793761283644.jpeg)
 <img width="1125" alt="pcb6" src="https://user-images.githubusercontent.com/77059171/197513592-ae4d662f-2725-4259-8ddc-07ca1a2fb7b5.png">
 <img width="1125" alt="Screen Shot 2022-10-24 at 13 13 09" src="https://user-images.githubusercontent.com/77059171/197513595-618ac596-a999-4fd4-b1f6-e334db974f62.png">
@@ -81,8 +71,12 @@ do the same with the rows.
 
 ![pcb11](https://user-images.githubusercontent.com/77059171/197513607-f82ca05a-25a7-458b-9c98-04b720e4c8ba.jpeg)
 
-Note: if you didn't put the cables in the same order as me you must modify the order of the pins in the [code.py](https://github.com/kebab-mixto/Keensy/blob/main/code.py)
+### Note: if you didn't put the cables in the same order as me you must modify the order of the pins in the [code.py](https://github.com/kebab-mixto/Keensy/blob/main/code.py)
 ![pcb12](https://user-images.githubusercontent.com/77059171/197513608-b7ce56fa-b938-4343-9fe7-694ba7b8dd3d.jpeg)
+
+# Case assembly
+
+# Final assembly
 
 
 
