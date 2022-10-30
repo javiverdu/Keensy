@@ -74,9 +74,8 @@ You're done!
 ### Note: if you didn't put the cables in the same order as me you must modify the order of the pins in the [code.py](https://github.com/kebab-mixto/Keensy/blob/main/code.py)
 ![pcb12](https://user-images.githubusercontent.com/77059171/197513608-b7ce56fa-b938-4343-9fe7-694ba7b8dd3d.jpeg)
 
-# Case assembly
 
-# Final assembly
+
 
 
 
