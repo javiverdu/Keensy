@@ -17,11 +17,12 @@ The main features of the keyboard are:
 
 - 3d printed files (make sure the plates are printed in a good bed level)
 - rp2040 WeAct Studio
-- M2X14mm screws
-- 84 1N14148 diodes
 - 84 keycaps 
-- 22 AWG flexible cable 
+- Costar stabilizers
 - 33x5x1.5mm silicone feet
+- 84 1N14148 diodes
+- 22 AWG flexible cable 
+- M2X14mm screws
 - Soldering Iron 
 - Hot glue 
 - scizzors
