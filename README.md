@@ -15,7 +15,7 @@ Keensy is a 3d printed custom mechanical keyboard with a 75% format with KMK fir
 
 # Materials 
 
-- 3d printed files (make sure the plates are printed in a good bed level)
+- 3d printed files (needs quality tolerances and good bed level)
 - rp2040 WeAct Studio
 - 84 keycaps 
 - Costar stabilizers
@@ -60,6 +60,7 @@ You're done!
 # PCB Assembly
 
 ### This is the most tedious part of the build, it will take you some time to finish it
+### You will need [this diode bending cube](https://github.com/50an6xy06r6n/hotswap_pcb_generator/blob/main/stl/diode_bending_templates/mx_improved_diode_bending_template.stl)
 ![pcb1](https://user-images.githubusercontent.com/77059171/197512673-89415271-1898-42db-8045-a4a546871fb2.jpeg)
 
 ### Pro tip: place the raspberry in a position and cut the cables measuring its length to the pin
