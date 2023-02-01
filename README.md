@@ -6,7 +6,8 @@
 
 Keensy is a 3d printed 75% mechanical keyboard that uses KMK firmware. The goal of this project is to create a cheap keyboard that feels like a high-end one.
 
-### Note: At this moment the keyboard has ISO layout, ANSI layout coming soon. 
+### Note: There are 4 variables of plates but only the 3d printed PCB works with the default ISO layout.
+If you want to make yours you can look [here](https://github.com/50an6xy06r6n/hotswap_pcb_generator)
 
 # Main features 
 - usb-c connector
@@ -20,6 +21,7 @@ Keensy is a 3d printed 75% mechanical keyboard that uses KMK firmware. The goal 
 
 - 3d printed files (needs quality tolerances and good bed level)
 - rp2040 WeAct Studio
+- 84 Mx Cherry style switches
 - 84 keycaps 
 - Costar stabilizers 
 - short usb-c male to female (tutorial soon)
