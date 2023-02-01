@@ -34,6 +34,9 @@ If you want to make yours you can look [here](https://github.com/50an6xy06r6n/ho
 - scizzors
 - a pin (or something pointy)
 
+# Build Guide
+Check out [here](https://github.com/javiverdu/Keensy/blob/main/MANUAL.MD)
+
 ## Thanks
 
 * Credits [50an6xy06r6n](https://github.com/50an6xy06r6n/hotswap_pcb_generator) and [stingray127](https://github.com/stingray127/handwirehotswap) for the inspiration of the PCB
