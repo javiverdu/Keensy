@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Keensy: a 3D printed 75% mechanical keyboard that uses KMK firmware. The goal of this project is to create a cheap keyboard that feels like a high-end one.</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+  </style>
+</head>
+<body id="keensy">
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      executeScript: true,
+      coverpage: true,
+      name: '<small><strong>Keensy</strong></small>',
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            VanillaTilt.init(document.querySelector("[data-tilt]"), {
+              max: 10,
+              speed: 400
+            });
+          })
+        }
+      ]
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//unpkg.com/docsify@latest/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/vanilla-tilt/dist/vanilla-tilt.min.js"></script>
+</body>
+</html>

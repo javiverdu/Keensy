@@ -1,0 +1,15 @@
+{
+  "name": "keensy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/docsify serve docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
