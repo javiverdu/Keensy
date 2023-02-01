@@ -38,6 +38,11 @@ You're done!
 
 ### Do the same with the rows.
 ![pcb5](https://user-images.githubusercontent.com/77059171/197513590-bc3b014f-c4d3-4b2d-8021-793761283644.jpeg)
+
+### note: if your cables don't fit in the columns you can use silver wire as long as you secure the conection between the wire and the diode AND 
+### solder the wire the a cable that goes to the FC 
+(this will prevent problems when touching the columns)
+
 <img width="1125" alt="pcb6" src="https://user-images.githubusercontent.com/77059171/197513592-ae4d662f-2725-4259-8ddc-07ca1a2fb7b5.png">
 <img width="1125" alt="Screen Shot 2022-10-24 at 13 13 09" src="https://user-images.githubusercontent.com/77059171/197513595-618ac596-a999-4fd4-b1f6-e334db974f62.png">
 
