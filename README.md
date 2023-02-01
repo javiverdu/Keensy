@@ -31,7 +31,7 @@ If you want to make yours you can look [here](https://github.com/50an6xy06r6n/ho
 - M2X14mm screws
 - Soldering Iron 
 - Hot glue 
-- scizzors
+- scissors
 - a pin (or something pointy)
 
 # Build Guide
