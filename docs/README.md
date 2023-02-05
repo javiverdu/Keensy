@@ -1,6 +1,6 @@
-# Getting started
+# Intro
 
-Keensy is a 3D printed 75% mechanical keyboard that uses KMK firmware.
+Keensy is a 3D printed 75% mechanical keyboard that uses KMK firmware 
 
 <p style="display:flex;">
   <img style="margin-right: 12px;" width="50%" src="https://user-images.githubusercontent.com/77059171/215862176-3b6b5506-4c15-4c05-9ec7-8dfa679cacc4.jpeg">
@@ -8,28 +8,72 @@ Keensy is a 3D printed 75% mechanical keyboard that uses KMK firmware.
 </p>
 
 
-It's crafted using:
 
-- 3D printed files (needs quality tolerances and good bed level).
-- rp2040 WeAct Studio.
-- 84 Mx Cherry style switches.
-- 84 keycaps.
-- Costar stabilizers.
-- short usb-c male to female (tutorial soon).
-- 33x5x1.5mm silicone feet.
-- 84 1N14148 diodes.
-- 22 AWG flexible cable.
-- M2X14mm screws.
-- Soldering Iron.
-- Hot glue.
-- scissors.
-- a pin (or something pointy).
+## FAQ
 
-The goal of this project is to create a cheap keyboard that feels like a high-end one.
+**Q) Are the 3d printed pieces strong enough?**
 
-There are 4 variables of plates but only the 3d printed PCB works with the default ISO layout.
+A) Yes, it also has a good sound thanks to the thickness of the PCB
 
-If you want to make yours you can look [here](https://github.com/50an6xy06r6n/hotswap_pcb_generator)
+**Q) Do I need to know how to program?**
+
+A) No but it is recommended to "understand" how the main.py works, [the KMK firmware is very well documented](https://github.com/KMKfw/kmk_firmware) and can help you to get the best configuration for you.
+
+**Q) Is the PCB also 3d printed?**
+
+A) The PCB uses a 3d printed base that makes the handwiring cleaner and hot-swappable, it also gets rid of most of the soldering process (only the gpios of the board need to be soldered).
+
+**Q) What is handwiring?**
+A) Handwiring is the process of soldering the rows, columns and diodes of the keyboard by hand to a board (in this case the raspberry pico)
+
+**Q) So, is the pcb printed option worth it?**
+A) It depends, if you hate soldering or wants to have something solid and hotswap then go for it. The downside is it makes the process more tedious you may end up changing some rows because the pin of a switch don't make contact.
+
+**Q) Where can i buy the pieces for cheap?**
+
+A) Aliexpress
+
+**Q) the key next to home prints b**
+
+A) I know, I dont know what to put there :P
+
+**Q) Why did you do this?**
+
+A) My main purpose was to create the best budget fully customizable keyboard you can get
+
+**Q) What is a layout?**
+
+A) This image will help you to understand the difference between an [ISO and an ANSI layout](https://acf.geeknetic.es/imgw/imagenes/auto/2021/6/9/sue-teclados-ansi-iso.png?f=webp)
+
+
+
+
+
+
+# Materials
+
+| Quantity  | content |
+| ------------- | ------------- |
+| x | 3D printed files |
+| x1  | rp2040 WeAct Studio  |
+| x84  | 84 keycaps (ISO/ANSI) |
+| x84 | Mx style switches |
+| x84 | 1N14148 diodes |
+| x1  | Usb-c male connector |
+| x1  | Usb-c female connector |
+| x4 | 33x5x1.5mm silicone feet |
+| x1 | 10 meter 22 AWG flexible cable |
+| x23 (minimum) |  M2X14mm screws  |
+
+Tools needed:
+- soldering iron
+- hot glue
+- scissors
+- something pointy
+
+**There are 4 variables of plates but only the 3d printed PCB works with the default ISO layout. This also applies for the main.py configuration but it can be edited easily**
+
+**If are not into handwiring and have some free time you can check this pcb generator [here](https://github.com/50an6xy06r6n/hotswap_pcb_generator)**
 
 # Preparing firmware
 
