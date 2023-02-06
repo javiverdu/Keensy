@@ -35,7 +35,7 @@ A) Aliexpress
 
 **Q) the key next to home prints b**
 
-A) I know, I dont know what to put there :P
+A) I know :P
 
 **Q) Why did you do this?**
 
