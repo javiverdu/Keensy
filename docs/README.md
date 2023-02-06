@@ -79,14 +79,13 @@ Tools needed:
 
 The model of the raspberry has to be from WeAct Studio. If not, search the firmware of your raspberry [here](https://circuitpython.org/downloads).
 
-Then download [CircuitPython](https://circuitpython.org/board/weact_studio_pico/).
+First download [CircuitPython](https://circuitpython.org/board/weact_studio_pico/).
 
 After that, Get the raspberry in **boot mode**: 
 
 > Hold down the boot buttom and plug the raspberry into the computer.
 
 <img src="https://user-images.githubusercontent.com/77059171/197515886-c6149de8-bc5b-4a58-924d-d362ccd863eb.png">
-
 
 Now, the computer should detect a new external storage.
 
@@ -108,6 +107,7 @@ This is the most tedious part of the build, it will take you some time to finish
 
 You will need [this diode bending cube](https://github.com/50an6xy06r6n/hotswap_pcb_generator/blob/main/stl/diode_bending_templates/mx_improved_diode_bending_template.stl):
 
+this is the 3d printed pcb:
 ![pcb1](https://user-images.githubusercontent.com/77059171/197512673-89415271-1898-42db-8045-a4a546871fb2.jpeg)
 
 Place the raspberry in a position and cut the cables measuring its length to the pin:
