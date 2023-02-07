@@ -19,6 +19,10 @@ A) Yes, it also has a good sound thanks to the thickness of the PCB
 
 A) No but it is recommended to "understand" how the main.py works, [the KMK firmware is very well documented](https://github.com/KMKfw/kmk_firmware) and can help you to get the best configuration for you.
 
+**Q)Why KMK?**
+
+A) I could have used QMK but KMK is easier to install
+
 **Q) Is the PCB also 3d printed?**
 
 A) The PCB uses a 3d printed base that makes the handwiring cleaner and hot-swappable, it also gets rid of most of the soldering process (only the gpios of the board need to be soldered).
