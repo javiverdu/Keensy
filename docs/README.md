@@ -13,7 +13,7 @@ Keensy is a 3D printed 75% mechanical keyboard that uses KMK firmware
 
 **Q) Are the 3d printed pieces strong enough?**
 
-A) Yes, it also has a good sound thanks to the thickness of the PCB
+A) Yes
 
 **Q) Do I need to know how to program?**
 
