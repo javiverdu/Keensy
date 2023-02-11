@@ -75,7 +75,7 @@ Tools needed:
 - soldering iron
 - hot glue
 - scissors
-- something pointy
+- needle (or something pointy)
 
 **There are 4 variables of plates but only the 3d printed PCB works with the default ISO layout. This also applies for the main.py configuration but it can be edited easily**
 
@@ -150,31 +150,74 @@ Here is my setup:
 ## Diodes
 
 
-not yet !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-After that, solder the wire the a cable that goes to the FC  (this will prevent problems when touching the columns):
+Here comes the worst part of the build, you have been warmed.
+
+The best way to show how the diodes are conected to the columns is with these pictures
+
+> pointy thing and [diode bending cube](https://github.com/50an6xy06r6n/hotswap_pcb_generator/blob/main/stl/diode_bending_templates/mx_improved_diode_bending_template.stl) are needed here
+
+the diode pins will be here
+
+![Screenshot_1](https://user-images.githubusercontent.com/77059171/218276803-220dad54-e544-4a70-a26b-66b8f1bf7fbb.png)
+![caca](https://user-images.githubusercontent.com/77059171/218276926-45109aa2-2294-4161-be2c-61f1a33dd053.png)
+
+The connection between the column and the pen is formed by going through the cable.
 
 
+Here is where the pointy thing comes in handy.
 
+Check where the hole of the column is and prick the cable .
 <img src="https://user-images.githubusercontent.com/77059171/197513592-ae4d662f-2725-4259-8ddc-07ca1a2fb7b5.png">
 <img src="https://user-images.githubusercontent.com/77059171/197513595-618ac596-a999-4fd4-b1f6-e334db974f62.png">
 
-Additionally, you can bending diodes:
+Do the same with all the columns.
+
+## Bending Diodes
+
+You will need to do this at least 84 times 
 
 <img src="https://user-images.githubusercontent.com/77059171/197514755-90bb6a7d-5171-4165-b815-3526b5fb4c9f.png">
 <img src="https://user-images.githubusercontent.com/77059171/197514763-71bf9795-2e87-448d-b0ca-1d694bfb5139.png">
 <img src="https://user-images.githubusercontent.com/77059171/197514766-f7fec248-f870-4ca9-afa1-0133285df3b7.png">
 <img src="https://user-images.githubusercontent.com/77059171/197514768-1df9660b-df81-49e2-acae-0ad455548230.png">
 
+## Mounting the Diodes
+
+>Note: check the Diode orientation
 <img width="1125" src="https://user-images.githubusercontent.com/77059171/197513597-7421e924-2184-40b1-8982-4b5453a2ace7.png">
 <img width="1125" src="https://user-images.githubusercontent.com/77059171/197513599-e50b8574-73cf-4c6b-b42f-9b8525960c7e.png">
 <img width="1125" src="https://user-images.githubusercontent.com/77059171/197513604-9f14fefa-2a90-467a-b6c7-1389f41f7929.png">
 
-![pcb11](https://user-images.githubusercontent.com/77059171/197513607-f82ca05a-25a7-458b-9c98-04b720e4c8ba.jpeg)
+with all the diodes mounted to the columns you can now hot glue the raspberry to the pcb (make sure to put a layer of hot glue on the pcb 
 
-If you didn't put the cables in the same order as me you must modify the order of the pins in the [main.py](https://github.com/javierverdu/Keensy/blob/main/main.py):
+before)
+> You can also add some hot glue to the cables 
+
+## Rows
+
+The rows just need to solder the cables to their respective pin and good cable management.
+
+> Note: The ISO enter is connected in the third row
+
+
+## Usb-C Cable
+
+You will need a usb c male to female cable. You can buy usb-c connectors and solder the cables or buy one.
+
+
+Your printed PCB should look like this: 
+
+![pcb11](https://user-images.githubusercontent.com/77059171/197513607-f82ca05a-25a7-458b-9c98-04b720e4c8ba.jpeg)
 
 
 ![pcb12](https://user-images.githubusercontent.com/77059171/197513608-b7ce56fa-b938-4343-9fe7-694ba7b8dd3d.jpeg)
+>This was the first prototype of the pcb
+
+now you can connect the pcb to the PC and check if all the keys work as it should with a keyboard tester and something to bridge the connections of the matrix
+
+# Putting all together
+
+Coming soon.
 
 # Credits
 
