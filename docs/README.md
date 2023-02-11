@@ -2,9 +2,12 @@
 
 Keensy is a 3D printed 75% mechanical keyboard that uses KMK firmware 
 
-<p style="display:flex;">
-  <img style="margin-right: 12px;" width="50%" src="https://user-images.githubusercontent.com/77059171/215862176-3b6b5506-4c15-4c05-9ec7-8dfa679cacc4.jpeg">
-  <img width="50%" src="https://user-images.githubusercontent.com/77059171/215862180-34ced087-dace-45b0-8dbf-596352c3e889.jpeg">
+
+
+  
+ ![keensy_AND_NUTS_IT_2023-Feb-11_10-58-57AM-000_CustomizedView52401355376](https://user-images.githubusercontent.com/77059171/218270925-da948f2e-8f14-4177-8bd7-bf39c40e3c5f.jpg)
+![keensy_AND_NUTS_IT_2023-Feb-11_11-13-40AM-000_CustomizedView2487390429](https://user-images.githubusercontent.com/77059171/218270934-9f58ebad-08a8-40f8-88e4-2aa93de455f2.jpg)
+![keensy_AND_NUTS_IT_2023-Feb-11_11-40-58AM-000_CustomizedView38916644806](https://user-images.githubusercontent.com/77059171/218270943-a1067d05-0e76-4f87-b945-1ca89e01d9b2.png)
 </p>
 
 
@@ -88,6 +91,10 @@ First download [CircuitPython](https://circuitpython.org/board/weact_studio_pico
 After that, Get the raspberry in **boot mode**: 
 
 > Hold down the boot buttom and plug the raspberry into the computer.
+  <img width="50%" src="https://user-images.githubusercontent.com/77059171/218272883-652900b1-0b6d-4e69-815d-08e58389cdb1.png">
+
+![rp2040](https://user-images.githubusercontent.com/77059171/218272883-652900b1-0b6d-4e69-815d-08e58389cdb1.png)
+
 
 <img src="https://user-images.githubusercontent.com/77059171/197515886-c6149de8-bc5b-4a58-924d-d362ccd863eb.png">
 
@@ -112,6 +119,10 @@ This is the most tedious part of the build, it will take you some time to finish
 You will need [this diode bending cube](https://github.com/50an6xy06r6n/hotswap_pcb_generator/blob/main/stl/diode_bending_templates/mx_improved_diode_bending_template.stl):
 
 this is the 3d printed pcb:
+![pcb_front](https://user-images.githubusercontent.com/77059171/218271015-1a5cc7f7-a20f-43bd-9953-fb5b0d73933a.png)
+![pcb_back](https://user-images.githubusercontent.com/77059171/218271016-5bd20b9a-7bfe-466c-975b-f2e9d2b81f7b.png)
+
+
 ![pcb1](https://user-images.githubusercontent.com/77059171/197512673-89415271-1898-42db-8045-a4a546871fb2.jpeg)
 
 Place the raspberry in a position and cut the cables measuring its length to the pin:
