@@ -31,9 +31,11 @@ A) I could have used QMK but KMK is easier to install
 A) The PCB uses a 3d printed base that makes the handwiring cleaner and hot-swappable, it also gets rid of most of the soldering process (only the gpios of the board need to be soldered).
 
 **Q) What is handwiring?**
+
 A) Handwiring is the process of soldering the rows, columns and diodes of the keyboard by hand to a board (in this case the raspberry pico)
 
 **Q) So, is the pcb printed option worth it?**
+
 A) It depends, if you hate soldering or wants to have something solid and hotswap then go for it. The downside is it makes the process more tedious you may end up changing some rows because the pin of a switch don't make contact.
 
 **Q) Where can i buy the pieces for cheap?**
@@ -51,9 +53,6 @@ A) My main purpose was to create the best budget fully customizable keyboard you
 **Q) What is a layout?**
 
 A) This image will help you to understand the difference between an [ISO and an ANSI layout](https://acf.geeknetic.es/imgw/imagenes/auto/2021/6/9/sue-teclados-ansi-iso.png?f=webp)
-
-
-
 
 
 
@@ -93,11 +92,6 @@ After that, Get the raspberry in **boot mode**:
 > Hold down the boot buttom and plug the raspberry into the computer.
   <img width="50%" src="https://user-images.githubusercontent.com/77059171/218272883-652900b1-0b6d-4e69-815d-08e58389cdb1.png">
 
-![rp2040](https://user-images.githubusercontent.com/77059171/218272883-652900b1-0b6d-4e69-815d-08e58389cdb1.png)
-
-
-<img src="https://user-images.githubusercontent.com/77059171/197515886-c6149de8-bc5b-4a58-924d-d362ccd863eb.png">
-
 Now, the computer should detect a new external storage.
 
 Drag the downloaded UF2 file to the Pico. The storage will reset and appear with the name CIRCUITPY.
@@ -116,28 +110,50 @@ You're done!
 
 This is the most tedious part of the build, it will take you some time to finish it.
 
+
 You will need [this diode bending cube](https://github.com/50an6xy06r6n/hotswap_pcb_generator/blob/main/stl/diode_bending_templates/mx_improved_diode_bending_template.stl):
 
 this is the 3d printed pcb:
 ![pcb_front](https://user-images.githubusercontent.com/77059171/218271015-1a5cc7f7-a20f-43bd-9953-fb5b0d73933a.png)
+
+We will start at the back of the board with the columns of the matrix.
+
+## Columns
+
 ![pcb_back](https://user-images.githubusercontent.com/77059171/218271016-5bd20b9a-7bfe-466c-975b-f2e9d2b81f7b.png)
 
+For better cable management mark the position where the raspberry board will be. This will help you to know 
+the length of the cables.
+> Be careful with the holes of the screws!
+> Do NOT glue the board into the pcb (yet)
 
-![pcb1](https://user-images.githubusercontent.com/77059171/197512673-89415271-1898-42db-8045-a4a546871fb2.jpeg)
+![pcb_back](https://user-images.githubusercontent.com/77059171/218273965-b49f7c9c-ab78-425b-bef8-e3f9dda4a9fe.png)
 
-Place the raspberry in a position and cut the cables measuring its length to the pin:
+This is is the diagram of the weact studio rp2040, the GPX pins will be used for the matrix of the keyboard.
 
-![pcb2](https://user-images.githubusercontent.com/77059171/197513583-98787abe-5e95-45ab-9ab7-ecd54d1df790.jpeg)
-![pcb3](https://user-images.githubusercontent.com/77059171/197513585-7050d4f7-cc5f-48e4-8468-59da6b93305a.jpeg)
-![pcb4](https://user-images.githubusercontent.com/77059171/197513589-f252d623-6e82-480e-9f8b-c4e5365b481e.jpeg)
+The order of the pins can be specified in the `main.py` which means that you can solder the cables wherever you want as long as you modify the file.
+>Note: GND are not GPIO pins, do not use them.
 
-Do the same with the rows:
+<img width="40%" src="https://user-images.githubusercontent.com/77059171/218274319-28368ab4-c421-4ff6-bc2f-a8e217b59c9d.jpeg">
 
-![pcb5](https://user-images.githubusercontent.com/77059171/197513590-bc3b014f-c4d3-4b2d-8021-793761283644.jpeg)
+Put the cables in the columns and cut them with the enough length to join their respective pin.
+>If the cables won't fit in the columns you can use silver wire as long as you secure the conection between the wire and the diode AND.
 
-If your cables don't fit in the columns you can use silver wire as long as you secure the conection between the wire and the diode AND.
+>If you didn't understand this don't worry, it is the next step
 
+
+Here is my setup:
+
+![COLUMNS](https://user-images.githubusercontent.com/77059171/218275540-8f00776f-204b-450d-9370-33bc6547fef5.png)
+
+
+## Diodes
+
+
+not yet !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 After that, solder the wire the a cable that goes to the FC  (this will prevent problems when touching the columns):
+
+
 
 <img src="https://user-images.githubusercontent.com/77059171/197513592-ae4d662f-2725-4259-8ddc-07ca1a2fb7b5.png">
 <img src="https://user-images.githubusercontent.com/77059171/197513595-618ac596-a999-4fd4-b1f6-e334db974f62.png">
