@@ -48,7 +48,7 @@ A) I know :P
 
 **Q) Why did you do this?**
 
-A) My main purpose was to create the best budget fully customizable keyboard you can get
+A) My main purpose was to create the best budget fully customizable keyboard you can get and the most accesible proyect for beginners
 
 **Q) What is a layout?**
 
