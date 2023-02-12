@@ -139,7 +139,7 @@ The order of the pins can be specified in the `main.py` which means that you can
 <img width="40%" src="https://user-images.githubusercontent.com/77059171/218274319-28368ab4-c421-4ff6-bc2f-a8e217b59c9d.jpeg">
 
 Put the cables in the columns and cut them with the enough length to join their respective pin.
->If the cables won't fit in the columns you can use silver wire as long as you secure the conection between the wire and the diode AND.
+>If the cables won't fit in the columns you can use silver wire as long as you secure the conection between the wire and the diode.
 
 >If you didn't understand this don't worry, it is the next step
 
