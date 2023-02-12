@@ -71,6 +71,7 @@ A) This image will help you to understand the difference between an [ISO and an 
 | x4 | 33x5x1.5mm silicone feet |
 | x1 | 10 meter 22 AWG flexible cable |
 | x23 (minimum) |  M2X14mm screws  |
+| x19  | M2X4mm screws |
 
 Tools needed:
 - soldering iron
@@ -162,12 +163,12 @@ the diode pins will be here
 ![Screenshot_1](https://user-images.githubusercontent.com/77059171/218276803-220dad54-e544-4a70-a26b-66b8f1bf7fbb.png)
 ![caca](https://user-images.githubusercontent.com/77059171/218276926-45109aa2-2294-4161-be2c-61f1a33dd053.png)
 
-The connection between the column and the pen is formed by going through the cable.
+The connection between the column and the pin is formed by going through the cable.
 
 
 Here is where the pointy thing comes in handy.
 
-Check where the hole of the column is and prick the cable .
+Check where the hole of the column is and prick the cable.
 <img src="https://user-images.githubusercontent.com/77059171/197513592-ae4d662f-2725-4259-8ddc-07ca1a2fb7b5.png">
 <img src="https://user-images.githubusercontent.com/77059171/197513595-618ac596-a999-4fd4-b1f6-e334db974f62.png">
 
@@ -218,7 +219,55 @@ now you can connect the pcb to the PC and check if all the keys work as it shoul
 
 # Putting all together
 
-Coming soon.
+> Check if all the keys are working before mounting the case
+
+## Mounting the PCB
+
+glue the usb adapter to the hole case (usb-c hole) place the pcb to the case, be careful not to pinch the wires.
+
+now you can use the M2x4mm screws to secure the pcb to the case.
+![case_pcb](https://user-images.githubusercontent.com/77059171/218313886-1fa5fe3e-e407-454a-ae53-a6a50f59697b.png)
+
+## Mounting the stabilizers
+
+![keensy_AND_NUTS_IT_2023-Feb-11_12-43-35PM-000_CustomizedView1329393190](https://user-images.githubusercontent.com/77059171/218312721-a8142374-f820-4a1f-9fc4-6806e6fa1086.png)
+
+For the stabilizers you will need at least one for the spacebar in order to make it work properly
+
+![costar_stab](https://user-images.githubusercontent.com/77059171/218314234-cf49fc51-e5a4-4beb-b6d2-441d05167409.png)
+
+The stabilizers need to be installed in a specific orientation
+
+![costar_installed](https://user-images.githubusercontent.com/77059171/218314420-5eac41b4-2aec-48bc-a5f2-4c3c1dc00ead.png)
+
+You can put the rest of the costar pieces later 
+
+## Mounting the case
+
+take the plate and the case and put it upside-down. make sure the case and the plate is alined and start putting in the screws
+> There should be the less gap possible between the plate and the case
+
+![keensy_AND_NUTS_IT_2023-Feb-12_02-00-19PM-000_CustomizedView29306077820](https://user-images.githubusercontent.com/77059171/218316560-12c908d5-f0d4-4e41-b75f-df1e4895eefa.png)
+
+You can now put the silicone feet.
+
+## Mounting the switches
+
+The switches are installed in a specific orientation.
+
+It is recommended to check if the switch works before mounting the next one.
+This part is where the switch tends to fail as the upper pin needs to go through the row cable
+
+
+![keensy_AND_NUTS_IT_2023-Feb-12_02-06-20PM-000_CustomizedView13376214790](https://user-images.githubusercontent.com/77059171/218316576-89118b33-4bbc-4010-9749-c55eb989af59.png)
+
+You can now mount the costar stabilizers and the keycaps.
+
+
+## You're Done!
+
+Congratulations! You can now enjoy your new finished keyboard and tweak it however you like.
+
 
 # Credits
 
