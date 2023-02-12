@@ -93,8 +93,7 @@ After that, Get the raspberry in **boot mode**:
 
 > Hold down the boot buttom and plug the raspberry into the computer.
 
-
-  <img width="50%" src="https://user-images.githubusercontent.com/77059171/218272883-652900b1-0b6d-4e69-815d-08e58389cdb1.png">
+<img width="50%" src="https://user-images.githubusercontent.com/77059171/218272883-652900b1-0b6d-4e69-815d-08e58389cdb1.png">
 
 Now, the computer should detect a new external storage.
 
