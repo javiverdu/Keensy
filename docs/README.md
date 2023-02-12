@@ -20,7 +20,7 @@ A) Yes
 
 **Q) Do I need to know how to program?**
 
-A) No but it is recommended to "understand" how the main.py works, [the KMK firmware is very well documented](https://github.com/KMKfw/kmk_firmware) and can help you to get the best configuration for you.
+A) No but it is recommended to "understand" how the `main.py` works, [the KMK firmware is very well documented](https://github.com/KMKfw/kmk_firmware) and can help you to get the best configuration for you.
 
 **Q)Why KMK?**
 
