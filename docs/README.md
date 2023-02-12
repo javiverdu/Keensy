@@ -64,6 +64,7 @@ A) This image will help you to understand the difference between an [ISO and an 
 | x1  | rp2040 WeAct Studio  |
 | x84  | 84 keycaps (ISO/ANSI) |
 | x84 | Mx style switches |
+| set | Costar stabilizers |
 | x84 | 1N14148 diodes |
 | x1  | Usb-c male connector |
 | x1  | Usb-c female connector |
