@@ -83,7 +83,7 @@ Tools needed:
 
 **There are 4 variables of plates but only the 3d printed PCB works with the default ISO layout. This also applies for the main.py configuration but it can be edited easily**
 
-**If are not into handwiring and have some free time you can check this pcb generator [here](https://github.com/50an6xy06r6n/hotswap_pcb_generator)**
+**If you are not into handwiring and have some free time you can check this pcb generator [here](https://github.com/50an6xy06r6n/hotswap_pcb_generator)**
 
 # Preparing firmware
 
