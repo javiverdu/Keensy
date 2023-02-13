@@ -172,6 +172,8 @@ The connection between the column and the pin is formed by going through the cab
 Here is where the pointy thing comes in handy.
 
 Check where the hole of the column is and prick the cable.
+> The tinier the hole the less will fail the conexion
+
 <img src="https://user-images.githubusercontent.com/77059171/197513592-ae4d662f-2725-4259-8ddc-07ca1a2fb7b5.png">
 <img src="https://user-images.githubusercontent.com/77059171/197513595-618ac596-a999-4fd4-b1f6-e334db974f62.png">
 
@@ -190,6 +192,9 @@ You will need to do this at least 84 times
 
 >Note: check the Diode orientation
 <img width="1125" src="https://user-images.githubusercontent.com/77059171/197513597-7421e924-2184-40b1-8982-4b5453a2ace7.png">
+
+
+
 <img width="1125" src="https://user-images.githubusercontent.com/77059171/197513599-e50b8574-73cf-4c6b-b42f-9b8525960c7e.png">
 <img width="1125" src="https://user-images.githubusercontent.com/77059171/197513604-9f14fefa-2a90-467a-b6c7-1389f41f7929.png">
 
