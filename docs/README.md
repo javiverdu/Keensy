@@ -36,7 +36,9 @@ A) Handwiring is the process of soldering the rows, columns and diodes of the ke
 
 **Q) So, is the pcb printed option worth it?**
 
-A) It depends, if you hate soldering or wants to have something solid and hotswap then go for it. The downside is it makes the process more tedious you may end up changing some rows because the pin of a switch don't make contact.
+A) It depends, if you hate soldering or wants to have something solid and hotswap then go for it. The downside is that it makes the process more tedious you may end up changing some rows because the pin of a switch don't make contact.
+
+The most robust solution will always be soldering.
 
 **Q) Where can i buy the pieces for cheap?**
 
