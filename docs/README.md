@@ -1,6 +1,6 @@
 # Intro
 
-Keensy is a 3D printed 75% mechanical keyboard that uses KMK firmware 
+Keensy is a 3D printed 75% Hot-swap mechanical keyboard that uses KMK firmware 
 
 
 
@@ -29,6 +29,10 @@ A) I could have used QMK but KMK is easier to install
 **Q) Is the PCB also 3d printed?**
 
 A) The PCB uses a 3d printed base that makes the handwiring cleaner and hot-swappable, it also gets rid of most of the soldering process (only the gpios of the board need to be soldered).
+
+**Q) What is Hotswap?**
+
+A) Hotswap is the ability to remove the switches from your keyboard without having to disassemble or desolder it. Normally you would need some hotswap sockets to achieve this but the handwired pcb is well designed and can achieve this feature without sockets
 
 **Q) What is handwiring?**
 
@@ -137,7 +141,7 @@ the length of the cables.
 
 This is is the diagram of the weact studio rp2040, the GPX pins will be used for the matrix of the keyboard.
 
-The order of the pins can be specified in the `main.py` which means that you can solder the cables wherever you want as long as you modify the file.
+The order of the pins can be specified in the [`main.py`](https://github.com/javiverdu/Keensy/blob/main/main.py) which means that you can solder the cables wherever you want as long as you modify the file.
 >Note: GND are not GPIO pins, do not use them.
 
 <img width="40%" src="https://user-images.githubusercontent.com/77059171/218274319-28368ab4-c421-4ff6-bc2f-a8e217b59c9d.jpeg">
@@ -249,7 +253,7 @@ The stabilizers need to be installed in a specific orientation
 
 ![costar_installed](https://user-images.githubusercontent.com/77059171/218314420-5eac41b4-2aec-48bc-a5f2-4c3c1dc00ead.png)
 
-You can put the rest of the costar pieces later 
+You can put the rest of the costar pieces later. If you don't know how to install the stabilizers [this video may help you](https://www.youtube.com/watch?v=I31wrZvmdkI)
 
 ## Mounting the case
 
