@@ -60,8 +60,6 @@ A) My main purpose was to create the best budget fully customizable keyboard you
 
 A) This image will help you to understand the difference between an [ISO and an ANSI layout](https://acf.geeknetic.es/imgw/imagenes/auto/2021/6/9/sue-teclados-ansi-iso.png?f=webp)
 
-## [I made a Shop if you want a kit of the keyboard](https://www.etsy.com/es/shop/KeensyCo?ref=l2-about-shopname)
-
 # Materials
 
 | Quantity  | content |
