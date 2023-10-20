@@ -15,7 +15,7 @@ Keensy is a 3D printed 75% Hot-swap mechanical keyboard that uses KMK firmware
 ## FAQ
 **Q) How could i contact you?**
 
-A) @jabibuh in Telegram
+A) https://t.me/jabibuh
 
 **Q) Are the 3d printed pieces strong enough?**
 
